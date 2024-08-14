@@ -792,7 +792,7 @@ nav .fa{
   
   @media only screen and (min-width: 768px) and (max-width: 992px) {
     /* tablet */
-    * NAVIGATION PART */
+    /* NAVIGATION PART */
     #image_1{
         display: none;
     }
@@ -894,16 +894,7 @@ nav .fa{
     }
 }
   
-  
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* tablet landscape */
-  }
-
-  @media only screen and (min-width: 1200px) {
-    /* desktop, laptop */
-  
-  }
-  
+ 
 /* TO AVOID WIDTH SLIDING  */
 @media only screen and (max-width:1315px)
 {
