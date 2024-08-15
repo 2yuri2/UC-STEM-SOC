@@ -1,0 +1,1967 @@
+/* Poppins font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Poppins font */
+
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* montserrat */
+
+
+
+/* This is the overall fixed set up */
+*{
+    margin: 0;
+    padding: o;
+}
+/* This is the overall fixed set up */
+
+/* This is the header set up */
+.UC_STEM_SOC_HEADER{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(4k-earth-crescent-perspective-w12cemy1qtq6xp9c.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+/* This is the header set up */
+
+/* This is the container/parent set up */
+.nav_parent{
+    display: flex;
+    padding: 2% 3%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+/* This is the container/parent set up */
+
+
+/* NAVIGATIO SET UP */
+/* Logo */
+.nav-image{
+display: inline-block;
+position: relative;
+}
+/* Logo */
+
+/* Header Name */
+#Header_Name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
+/* Header Name */
+
+
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 1s;     
+}
+
+.nav-links ul li a:hover{
+    color: rgb(255, 255, 255);
+    border: 0px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #d42222f6;
+}
+/* END OF THE NAVIGATION BAR */
+
+/* RESEARCH_ARCHIVES_SECTION */
+
+.RESEARCH_ARCHIVES_SECTION{
+    width: 80%;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.RESEARCH_ARCHIVES_ROW{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.RESEARCH_ARCHIVES_COL{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.RESEARCH_ARCHIVES_COL img{
+    width: 100%;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.RESEARCH_ARCHIVES_COL h1{
+    color: white;
+    padding: 15px 0 0;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+    line-height: 1;
+}
+
+.RESEARCH_ARCHIVES_COL h3{
+    color: white;
+    padding: 5px 0;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.RESEARCH_ARCHIVES_COL p{
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding-right: 15%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.RESEARCH_ARCHIVES_COL a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: 1s;
+
+}
+
+.RESEARCH_ARCHIVES_COL a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background-color: #d42222f6;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/* end of the content of section 1 */
+
+/* SECTION 2 */
+
+.SECTION_2{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.SECTION_2_ROW{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.SECTION_2_COL{
+    flex-basis: 50%;
+    padding: 30px 2px;
+}
+
+.SECTION_2_COL img{
+    width: 100%;
+}
+
+.SECTION_2 h1{
+    color: rgb(0, 0, 0);
+    padding-top: 20%;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+}
+.SECTION_2 h3{
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.SECTION_2  ul{
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    line-height: 1.5;
+    font-size:20px;
+    padding-right: 15%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.SECTION_2  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #d42222f6;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+}
+
+.SECTION_2  a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: #d42222f6;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+}
+
+
+/* END OF SECTION 2 */
+
+/* MAIN_CONTENT */
+.main_content{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+.Archive_Child {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color:rgba(204, 119, 119, 0.233);
+    border-bottom: 30px black solid;
+}
+
+.Archive_Child h4 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Authors {
+    font-size: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.Date_Publish {
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.HASHTAGS {
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* COLOR CATEGORIES */
+.ROBOTICS_CATEGORY_COLOR{
+    background-color: rgb(127, 168, 255);
+}
+
+.HEALTH_CATEGORY_COLOR{
+    background-color: rgb(255, 127, 127);
+}
+
+
+.DOST_CHOICE_COLOR{
+    background-color: rgba(35, 65, 142, 0.789);
+}
+
+.DRRR_CATEGORY_COLOR{
+    background-color: rgba(184, 110, 41, 0.789);
+}
+
+.NATURE_CATEGORY_COLOR{
+    background-color: rgba(21, 95, 32, 0.789);
+}
+
+.SMART_CITIES_CATEGORY_COLOR{
+    background-color: rgb(89, 139, 167);
+}
+.MINERALS_CATEGORY_COLOR{
+    background-color: rgb(226, 218, 218);
+}
+
+/* COLOR CATEGORIES */
+
+.a_link {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Spread out the items with space between */
+    margin-top: 10px;
+}
+
+.link {
+    margin-left: auto; /* Push the link to the end */
+}
+
+
+.Archive_Child a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: black;
+    border-radius: 3px;
+    color: #fffbfb;
+    FONT-SIZE: 12PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    width: 135px;
+    transition: 1s;
+}
+
+.Archive_Child a:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: tan;
+    border-radius: 10px;
+    color: #000000;
+    FONT-SIZE: 12PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 200px;
+    text-align: center;
+    border: #000000 solid 2px;
+}
+
+
+
+#BEST_RESEARCH{
+    display: none;
+}
+
+/* NEXT PAGE */
+.next_page_conatainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.next_page_conatainer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #d42222f6;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    margin-bottom: 10px;
+    transition: 1s;
+
+}
+
+.next_page_conatainer a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background-color: #d42222f6;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* FOOTER */
+.footer_container{
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    background: rgb(211, 152, 152);
+}
+
+
+
+
+/* Favicons */
+nav .fa{
+    display: none;
+}
+/* Favicons */
+
+/*---------------------------------------------------------------------------------------  */
+@media only screen and (max-width: 320px) {
+    /* smartphones small */
+    #image_1{
+        display: none;
+    }
+    
+    #Header_Name{
+        font-size: 9px;
+        position: absolute;
+        left: 18%;
+    }
+    
+    .nav-links ul li  {
+        display: block;
+     }
+     
+     .nav-links{
+         position: absolute;
+         background: rgba(110, 101, 101, 0.514);
+         backdrop-filter: blur(20px);
+         height: 100vh;
+         width:200px;
+         top:0;
+         right: -300px;
+         text-align: right;
+         z-index: 2;
+         transition: 1s;
+     }
+     nav .fa{
+         display: block;
+         color: white;
+         margin: 15px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .nav-links{
+         padding: 10px;
+     }
+
+    /* SECTION 1 */
+    .RESEARCH_ARCHIVES_SECTION{
+        padding-left: 40px;
+        padding-right: 40px;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .RESEARCH_ARCHIVES_COL img{
+        display: none;
+    }
+
+    #RESEARCH_ARCHIVES_COL_IMAGE{
+        display: none;
+
+    }
+
+    .RESEARCH_ARCHIVES_ROW{
+        flex-direction: column;
+    }
+
+    .RESEARCH_ARCHIVES_COL h1{
+        font-size: 12vw;
+    }
+    .RESEARCH_ARCHIVES_COL h3{
+        font-size: 5vw;
+    }
+
+    .RESEARCH_ARCHIVES_COL p{
+        font-size: 4vw;
+    }
+
+    .RESEARCH_ARCHIVES_COL a{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    /* SECTION 1 */
+
+    /* SECTION 2 */
+    .SECTION_2_ROW{
+        flex-direction: column;
+    }
+
+    .SECTION_2_COL {
+        flex-basis: 50%;
+        padding:0px;
+    }
+
+    .SECTION_2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .SECTION_2 h1 {
+        color: rgb(0, 0, 0);
+        padding: 5% 0 0;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2 h3 {
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2  ul{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size:13px;
+        padding-right: 15%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    
+    .SECTION_2  a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        margin-top: 50px;
+        border-radius: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: 1s;
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    /* MAIN CONTENT */
+
+    .main_content{
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 20px;
+    } 
+    
+    .Archive_Child {
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color:rgba(204, 119, 119, 0.233);
+        border-bottom: 30px black solid;
+        width: 70%;
+    }
+
+    .Archive_Child h4 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1;
+    }
+
+    .Authors {
+        font-size: 12px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .Date_Publish {
+        margin-bottom: 6px;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .HASHTAGS {
+        border: 1px solid black;
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* COLOR CATEGORIES */
+    .ROBOTICS_CATEGORY_COLOR{
+        background-color: rgb(127, 168, 255);
+    }
+
+    .HEALTH_CATEGORY_COLOR{
+        background-color: rgb(255, 127, 127);
+    }
+    
+
+    .DOST_CHOICE_COLOR{
+        background-color: rgba(35, 65, 142, 0.789);
+    }
+
+    .DRRR_CATEGORY_COLOR{
+        background-color: rgba(184, 110, 41, 0.789);
+    }
+
+    .NATURE_CATEGORY_COLOR{
+        background-color: rgba(21, 95, 32, 0.789);
+    }
+
+    .SMART_CITIES_CATEGORY_COLOR{
+        background-color: rgb(89, 139, 167);
+    }
+    .MINERALS_CATEGORY_COLOR{
+        background-color: rgb(226, 218, 218);
+    }
+
+    /* COLOR CATEGORIES */
+
+    .a_link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .link{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .Archive_Child a {
+        text-decoration: none;
+        padding: 7px;
+        background-color: black;
+        border-radius: 3px;
+        color: #fffbfb;
+        FONT-SIZE: 10PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+    #BEST_RESEARCH{
+        display: none;
+    }
+
+    /* NEXT PAGE */
+    .next_page_conatainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next_page_conatainer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        border-radius: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        background: rgb(211, 152, 152);
+    }
+
+
+
+
+} /*this is the lock */
+
+/* -------------------------------------------------------------------------------------- */
+  @media only screen and (min-width: 375px) and (max-width: 425px) {
+    /* SMART PHONE MEDIUM */
+    #image_1{
+        display: none;
+    }
+    
+    #Header_Name{
+        font-size: 9px;
+        position: absolute;
+        left: 18%;
+    }
+    
+    .nav-links ul li  {
+        display: block;
+     }
+     
+     .nav-links{
+         position: absolute;
+         background: rgba(110, 101, 101, 0.514);
+         backdrop-filter: blur(20px);
+         height: 100vh;
+         width:200px;
+         top:0;
+         right: -300px;
+         text-align: right;
+         z-index: 2;
+         transition: 1s;
+     }
+     nav .fa{
+         display: block;
+         color: white;
+         margin: 15px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .nav-links{
+         padding: 10px;
+     }
+
+    /* SECTION 1 */
+    .RESEARCH_ARCHIVES_SECTION{
+        padding-left: 40px;
+        padding-right: 40px;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .RESEARCH_ARCHIVES_COL img{
+        display: none;
+    }
+
+    #RESEARCH_ARCHIVES_COL_IMAGE{
+        display: none;
+
+    }
+
+    .RESEARCH_ARCHIVES_ROW{
+        flex-direction: column;
+    }
+
+    .RESEARCH_ARCHIVES_COL h1{
+        font-size: 9vw;
+    }
+
+    .RESEARCH_ARCHIVES_COL p{
+        font-size: 3vw;
+    }
+
+    .RESEARCH_ARCHIVES_COL a{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    /* SECTION 1 */
+
+    /* SECTION 2 */
+    .SECTION_2_ROW{
+        flex-direction: column;
+    }
+
+    .SECTION_2_COL {
+        flex-basis: 50%;
+        padding:0px;
+    }
+
+    .SECTION_2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .SECTION_2 h1 {
+        color: rgb(0, 0, 0);
+        padding: 5% 0 0;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2 h3 {
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2  ul{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size:13px;
+        padding-right: 15%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    
+    .SECTION_2  a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 11px;
+        background-color: #d42222f6;
+        margin-top: 50px;
+        border-radius: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: 1s;
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    /* MAIN CONTENT */
+
+    .main_content{
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 13px;
+        padding-right: 20px;
+    } 
+    
+    .Archive_Child {
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color:rgba(204, 119, 119, 0.233);
+        border-bottom: 30px black solid;
+        width: 80%;
+    }
+
+    .Archive_Child h4 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1;
+    }
+
+    .Authors {
+        font-size: 15px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .Date_Publish {
+        margin-bottom: 6px;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .HASHTAGS {
+        border: 1px solid black;
+        margin-right: 5px;
+        padding: 4px;
+        border-radius: 3px;
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* COLOR CATEGORIES */
+    .ROBOTICS_CATEGORY_COLOR{
+        background-color: rgb(127, 168, 255);
+    }
+
+    .HEALTH_CATEGORY_COLOR{
+        background-color: rgb(255, 127, 127);
+    }
+    
+
+    .DOST_CHOICE_COLOR{
+        background-color: rgba(35, 65, 142, 0.789);
+    }
+
+    .DRRR_CATEGORY_COLOR{
+        background-color: rgba(184, 110, 41, 0.789);
+    }
+
+    .NATURE_CATEGORY_COLOR{
+        background-color: rgba(21, 95, 32, 0.789);
+    }
+
+    .SMART_CITIES_CATEGORY_COLOR{
+        background-color: rgb(89, 139, 167);
+    }
+    .MINERALS_CATEGORY_COLOR{
+        background-color: rgb(226, 218, 218);
+    }
+
+    /* COLOR CATEGORIES */
+
+    .a_link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+       
+        flex-wrap: wrap;
+    }
+
+    .link {
+        margin-top: 10px;
+        margin-left: 0; /* Push the link to the end */
+    }
+    
+    
+    .Archive_Child a {
+        text-decoration: none;
+        padding: 5px;
+        background-color: black;
+        border-radius: 3px;
+        color: #fffbfb;
+        FONT-SIZE: 10PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+    #BEST_RESEARCH{
+        display: none;
+    }
+
+    /* NEXT PAGE */
+    .next_page_conatainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next_page_conatainer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        border-radius: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        background: rgb(211, 152, 152);
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    /* SMART PHONE MEDIUM */
+    #image_1{
+        display: none;
+    }
+    
+    #Header_Name{
+        font-size: 9px;
+        position: absolute;
+        left: 14%;
+    }
+    
+    .nav-links ul li  {
+        display: block;
+     }
+     
+     .nav-links{
+         position: absolute;
+         background: rgba(110, 101, 101, 0.514);
+         backdrop-filter: blur(20px);
+         height: 100vh;
+         width:200px;
+         top:0;
+         right: -300px;
+         text-align: right;
+         z-index: 2;
+         transition: 1s;
+     }
+     nav .fa{
+         display: block;
+         color: white;
+         margin: 15px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .nav-links{
+         padding: 10px;
+     }
+
+    /* SECTION 1 */
+    .RESEARCH_ARCHIVES_SECTION{
+        padding-left: 40px;
+        padding-right: 40px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .RESEARCH_ARCHIVES_COL img{
+        display: none;
+    }
+
+    #RESEARCH_ARCHIVES_COL_IMAGE{
+        display: none;
+
+    }
+
+    .RESEARCH_ARCHIVES_ROW{
+        flex-direction: column;
+    }
+
+    .RESEARCH_ARCHIVES_COL h1{
+        font-size: 12vw;
+        line-height: 1;
+    }
+
+    .RESEARCH_ARCHIVES_COL h3{
+        font-size: 4vw;
+        
+    }
+
+    .RESEARCH_ARCHIVES_COL p{
+        font-size: 3vw;
+    }
+
+    .RESEARCH_ARCHIVES_COL a{
+        font-size: 2vw;
+        font-weight: 700;
+    }
+    /* SECTION 1 */
+
+    /* SECTION 2 */
+    .SECTION_2_ROW{
+        flex-direction: column;
+    }
+
+    .SECTION_2_COL {
+        flex-basis: 50%;
+        padding:0px;
+    }
+
+    .SECTION_2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .SECTION_2 h1 {
+        color: rgb(0, 0, 0);
+        padding: 5% 0 0;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2 h3 {
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2  ul{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size:10px;
+        padding-right: 15%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    
+    .SECTION_2  a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        margin-top: 50px;
+        border-radius: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: 1s;
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    /* MAIN CONTENT */
+
+    .main_content{
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    
+    .Archive_Child {
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color:rgba(204, 119, 119, 0.233);
+        border-bottom: 30px black solid;
+        width: 80%;
+    }
+
+    .Archive_Child h4 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1;
+    }
+
+
+    .Authors {
+        font-size: 12px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .Date_Publish {
+        margin-bottom: 6px;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .HASHTAGS {
+        border: 1px solid black;
+        margin-right: 5px;
+        padding: 4px;
+        border-radius: 3px;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* COLOR CATEGORIES */
+    .ROBOTICS_CATEGORY_COLOR{
+        background-color: rgb(127, 168, 255);
+    }
+
+    .HEALTH_CATEGORY_COLOR{
+        background-color: rgb(255, 127, 127);
+    }
+    
+
+    .DOST_CHOICE_COLOR{
+        background-color: rgba(35, 65, 142, 0.789);
+    }
+
+    .DRRR_CATEGORY_COLOR{
+        background-color: rgba(184, 110, 41, 0.789);
+    }
+
+    .NATURE_CATEGORY_COLOR{
+        background-color: rgba(21, 95, 32, 0.789);
+    }
+
+    .SMART_CITIES_CATEGORY_COLOR{
+        background-color: rgb(89, 139, 167);
+    }
+    .MINERALS_CATEGORY_COLOR{
+        background-color: rgb(226, 218, 218);
+    }
+
+    /* COLOR CATEGORIES */
+
+    .a_link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .Archive_Child a {
+        text-decoration: none;
+        padding: 7px;
+        background-color: black;
+        border-radius: 3px;
+        color: #fffbfb;
+        FONT-SIZE: 10PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+    #BEST_RESEARCH{
+        display: none;
+    }
+
+    /* NEXT PAGE */
+    .next_page_conatainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next_page_conatainer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        border-radius: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        background: rgb(211, 152, 152);
+    }
+}
+
+/* -------------------------------------------------------------------------------------- */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+   /* TABLET*/
+    #image_1{
+        display: none;
+    }
+    
+    #Header_Name{
+        font-size: 9px;
+        position: absolute;
+        left: 9%;
+    }
+
+
+
+    .RESEARCH_ARCHIVES_COL {
+        flex-basis: 48%;
+        padding: 0px 2px;
+    }
+    
+    .nav-links ul li  {
+        display: block;
+     }
+     
+     .nav-links{
+         position: absolute;
+         background: rgba(110, 101, 101, 0.514);
+         backdrop-filter: blur(20px);
+         height: 100vh;
+         width:200px;
+         top:0;
+         right: -300px;
+         text-align: right;
+         z-index: 2;
+         transition: 1s;
+     }
+     nav .fa{
+         display: block;
+         color: white;
+         margin: 15px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .nav-links{
+         padding: 10px;
+     }
+
+    /* SECTION 1 */
+    .RESEARCH_ARCHIVES_SECTION{
+        padding-left: 100px;
+        padding-right: 100px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        
+    
+
+    }
+
+    .RESEARCH_ARCHIVES_COL img{
+        display: none;
+    }
+
+    #RESEARCH_ARCHIVES_COL_IMAGE{
+        display: none;
+
+    }
+
+    .RESEARCH_ARCHIVES_ROW{
+        flex-direction: column;
+    }
+
+    .RESEARCH_ARCHIVES_COL h1{
+        font-size: 50px;
+        line-height: 1;
+    }
+    .RESEARCH_ARCHIVES_COL h3{
+        font-size: 20px;
+        line-height: 1;
+    }
+    .RESEARCH_ARCHIVES_COL p{
+        font-size: 15px;
+    }
+
+    .RESEARCH_ARCHIVES_COL a{
+        font-size: 10px;
+    }
+    /* SECTION 1 */
+
+    /* SECTION 2 */
+
+
+    .SECTION_2_ROW{
+        flex-direction: column;
+    }
+
+    .SECTION_2_COL {
+        flex-basis: 50%;
+        padding:0px;
+    }
+
+    .SECTION_2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .SECTION_2 h1 {
+        color: rgb(0, 0, 0);
+        padding: 5% 0 0;
+        font-size: 38px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+        line-height: 1;
+    }
+
+    .SECTION_2 h3 {
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2  ul{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size:20px;
+        margin-left: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        
+    }
+    
+    .SECTION_2  a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        margin-top: 50px;
+        border-radius: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: 1s;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    /* MAIN CONTENT */
+
+    .main_content{
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    
+    .Archive_Child {
+        width: 88%;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color:rgba(204, 119, 119, 0.233);
+        border-bottom: 30px black solid;
+    }
+
+    .Archive_Child h4 {
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .Authors {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .Date_Publish {
+        margin-bottom: 6px;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .HASHTAGS {
+        border: 1px solid black;
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* COLOR CATEGORIES */
+    .ROBOTICS_CATEGORY_COLOR{
+        background-color: rgb(127, 168, 255);
+    }
+
+    .HEALTH_CATEGORY_COLOR{
+        background-color: rgb(255, 127, 127);
+    }
+    
+
+    .DOST_CHOICE_COLOR{
+        background-color: rgba(35, 65, 142, 0.789);
+    }
+
+    .DRRR_CATEGORY_COLOR{
+        background-color: rgba(184, 110, 41, 0.789);
+    }
+
+    .NATURE_CATEGORY_COLOR{
+        background-color: rgba(21, 95, 32, 0.789);
+    }
+
+    .SMART_CITIES_CATEGORY_COLOR{
+        background-color: rgb(89, 139, 167);
+    }
+    .MINERALS_CATEGORY_COLOR{
+        background-color: rgb(226, 218, 218);
+    }
+
+    /* COLOR CATEGORIES */
+
+    .a_link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .Archive_Child a {
+        text-decoration: none;
+        padding: 7px;
+        background-color: black;
+        border-radius: 3px;
+        color: #fffbfb;
+        FONT-SIZE: 15PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        width: 220px;
+    }
+
+
+    #BEST_RESEARCH{
+        display: none;
+    }
+
+    /* NEXT PAGE */
+    .next_page_conatainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next_page_conatainer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        border-radius: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        background: rgb(211, 152, 152);
+    }
+
+    /* SPECEFIC PAGES/MANUAL FIX */
+
+    
+  }
+/* -------------------------------------------------------------------------------------- */  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* tablet landscape */
+    
+    
+    #image_1{
+        display: none;
+    }
+    
+    #Header_Name{
+        font-size: 9px;
+        position: absolute;
+        left: 9%;
+    }
+
+
+
+    .RESEARCH_ARCHIVES_COL {
+        flex-basis: 48%;
+        padding: 0px 2px;
+    }
+    
+    .nav-links ul li  {
+        display: block;
+     }
+     
+     .nav-links{
+         position: absolute;
+         background: rgba(110, 101, 101, 0.514);
+         backdrop-filter: blur(20px);
+         height: 100vh;
+         width:200px;
+         top:0;
+         right: -300px;
+         text-align: right;
+         z-index: 2;
+         transition: 1s;
+     }
+     nav .fa{
+         display: block;
+         color: white;
+         margin: 15px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .nav-links{
+         padding: 10px;
+     }
+
+    /* SECTION 1 */
+    .RESEARCH_ARCHIVES_SECTION{
+        padding-left: 100px;
+        padding-right: 100px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* .RESEARCH_ARCHIVES_COL img{
+        display: none;
+    } */
+
+    /* #RESEARCH_ARCHIVES_COL_IMAGE{
+        display: none;
+
+    } */
+
+    .RESEARCH_ARCHIVES_ROW{
+        flex-direction: row;
+    }
+
+    .RESEARCH_ARCHIVES_COL h1{
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .RESEARCH_ARCHIVES_COL p{
+        font-size: 12px;
+    }
+
+    .RESEARCH_ARCHIVES_COL a{
+        font-size: 10px;
+    }
+    /* SECTION 1 */
+
+    /* SECTION 2 */
+    .SECTION_2_ROW{
+        flex-direction: row;
+    }
+
+    .SECTION_2_COL {
+        flex-basis: 50%;
+        padding:0px;
+    }
+
+    .SECTION_2{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .SECTION_2 h1 {
+        color: rgb(0, 0, 0);
+        padding: 25% 0 0;
+        font-size: 38px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+        line-height: 1;
+    }
+
+    .SECTION_2 h3 {
+        color: rgb(0, 0, 0);
+        padding: 5px 0;
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-left: 10%;
+    }
+
+    .SECTION_2  ul{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size:13px;
+        margin-left: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        
+    }
+    
+    .SECTION_2  a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        margin-top: 50px;
+        border-radius: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        transition: 1s;
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    /* MAIN CONTENT */
+
+    .main_content{
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 27px;
+        padding-right: 20px;
+    } 
+    
+    .Archive_Child {
+        width: 90%;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color:rgba(204, 119, 119, 0.233);
+        border-bottom: 30px black solid;
+    }
+
+    .Archive_Child h4 {
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .Authors {
+        font-size: 17px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .Date_Publish {
+        margin-bottom: 6px;
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .HASHTAGS {
+        border: 1px solid black;
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* COLOR CATEGORIES */
+    .ROBOTICS_CATEGORY_COLOR{
+        background-color: rgb(127, 168, 255);
+    }
+
+    .HEALTH_CATEGORY_COLOR{
+        background-color: rgb(255, 127, 127);
+    }
+    
+
+    .DOST_CHOICE_COLOR{
+        background-color: rgba(35, 65, 142, 0.789);
+    }
+
+    .DRRR_CATEGORY_COLOR{
+        background-color: rgba(184, 110, 41, 0.789);
+    }
+
+    .NATURE_CATEGORY_COLOR{
+        background-color: rgba(21, 95, 32, 0.789);
+    }
+
+    .SMART_CITIES_CATEGORY_COLOR{
+        background-color: rgb(89, 139, 167);
+    }
+    .MINERALS_CATEGORY_COLOR{
+        background-color: rgb(226, 218, 218);
+    }
+
+    /* COLOR CATEGORIES */
+
+    .a_link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .Archive_Child a {
+        text-decoration: none;
+        padding: 7px;
+        background-color: black;
+        border-radius: 3px;
+        color: #fffbfb;
+        FONT-SIZE: 15PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        width: 200px;
+    }
+
+
+    #BEST_RESEARCH{
+        display: none;
+    }
+
+    /* NEXT PAGE */
+    .next_page_conatainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next_page_conatainer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #d42222f6;
+        border-radius: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        background: rgb(211, 152, 152);
+    }
+
+    /* SPECEFIC PAGES/MANUAL FIX */
+  }
+/* -------------------------------------------------------------------------------------- */  
+  
+  
+  
+
+
+/* TO AVOID WIDTH SLIDING  */
+@media only screen and (max-width:1315px)
+{
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+/* TO AVOID WIDTH SLIDING  */
+
+@media only screen and (max-width:1024px)
+{
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:2560px)
+{
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+/* TO AVOID WIDTH SLIDING  */
+
+
+
+
+
+  
+  
