@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="NEW_ARCHIVES.css">
+    <link rel="icon" href="Project Images/LOGO/STEM_Logo_BG-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <title>UC STEM SOC</title>
+</head>
+<body>
+     <!-- SECTION HEADER 1 CONTENT -->
+    <section class="UC_STEM_SOC_HEADER">
+        <!-- NAVIGATION BAR -->
+        <nav class="nav_parent">
+            <a href="UCSTEMSociety.html" class="nav-image" id="image_1">
+
+                <img src="UC LOGO.png" alt="LOGO"  width="50" height="50">
+            </a>
+            <a href="UCSTEMSociety.html" class="nav-image" id="image_1">
+                <img src="433848243_282618284925950_1189385957967095023_n-removebg-preview.png" alt="LOGO"  width="50" height="50">
+            </a>
+            <a href="UCSTEMSociety.html" class="nav-image">
+                <img src="STEM_Logo_BG-removebg-preview.png" alt="LOGO" width="50" height="50" >
+            </a>
+            <h2 id="Header_Name">
+                University of the Cordilleras <br>
+                STEM Society
+            </h2>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="link-1 link"><a href="archives.html">Archives</a></li>
+                    <li class="link-2 link"><a href="community.html">Community</a></li>
+                    <li class="link-3 link"><a href="quizes.html">Quizzes</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa"onclick="showMenu()"></i>
+        </nav>
+        <!-- NAVIGATION BAR -->
+
+        <!-- CONTENT -->
+        <div class="text_box">   
+
+            <div class="heading">
+                <h1>
+                    STEM RESEARCH ARCHIVES
+                </h1>
+            </div>
+
+            <div class="Container">
+                <div class="Research_Content">
+                    <h2>Dive in to a new innovation</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Neque repudiandae 
+                        molestiae culpa reprehenderit aliquid 
+                        tempora quam deleniti beatae, saepe 
+                        natus id? Quod debitis dignissimos 
+                        exercitationem at rem minima, aperiam porro.
+                    </p>
+                    <a href="#">
+                        Read Award winning research of the year!
+                    </a>
+                </div>
+
+                <div class="image">
+                    <img src="research.jpg" alt="#">
+                </div>
+
+            </div>
+        </div>
+        <!-- END OF THE CONTENT -->
+        
+         <!-- Java Script Code  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        hideMenu(); 
+        // Ensure the menu is hidden on initial page load
+        });
+
+        var navLinks =document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-300px";
+        }
+    </script>
+    </section>
+   
+</body>
+</html>

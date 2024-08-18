@@ -1,0 +1,162 @@
+/* Poppins font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Poppins font */
+
+
+/* This is the overall fixed set up */
+*{
+    margin: 0;
+    padding: o;
+}
+/* This is the overall fixed set up */
+
+/* This is the header set up */
+.UC_STEM_SOC_HEADER{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(4k-earth-crescent-perspective-w12cemy1qtq6xp9c.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+/* This is the header set up */
+
+/* This is the container/parent set up */
+.nav_parent{
+    display: flex;
+    padding: 2% 3%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+/* This is the container/parent set up */
+
+/* Logo */
+.nav-image{
+display: inline-block;
+position: relative;
+}
+/* Logo */
+
+/* Header Name */
+#Header_Name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
+/* Header Name */
+
+
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 1s;     
+}
+
+.nav-links ul li a:hover{
+    color: rgb(255, 255, 255);
+    border: 0px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #d42222f6;
+}
+
+/* END OF THE NAVIGATION BAR */
+
+/**/
+.text_box{
+    overflow: hidden;
+ }
+ .heading h1{
+     color: #ffffff;
+     font-size: 75px;
+     text-align: left;
+     margin-top: 35px;
+     margin-left: 7%;
+     width: 100%;
+ }
+ 
+ .Container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
+     margin: 15px auto;
+ }
+ .Research_Content{
+     flex: 1;
+     width: 600px;
+     margin: 0px 25px;
+ }
+ 
+ .Research_Content h2{
+     font-size: 50px;
+     margin-bottom: 20px;
+     color: white;
+ }
+ 
+ .Research_Content p{
+     font-size: 24px;
+     line-height: 1.5;
+     margin-bottom: 15px;
+     color: white;
+ }
+ 
+ .Research_Content a{
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: #d42222f6;
+     transition: 1s;
+     margin-bottom: 20px;
+     font-size: 14px;
+    
+ }
+ .Research_Content a:hover{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     padding: 25px;
+     border-radius: 5px;
+     background-color: #000000f6;
+ }
+ .image{
+     flex: 1;
+     width: 600px;
+     margin: auto;
+ }
+ 
+ img{
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+     margin-bottom: 20px;
+ }
+
