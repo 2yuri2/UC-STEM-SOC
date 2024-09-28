@@ -1,31 +1,46 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Reset margin and padding */
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Added to ensure padding and border are included in the element's total width and height */
+  }
+
+body{
+    background-color: #80292b;
+
 }
-/* Poppins font */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-/* Poppins font */
-
-.STEM_SOC_ARCHIVES_SECTION_1{
+  
+  /* HEADER SECTION */
+  .header {
     min-height: 100vh;
-    width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(4k-earth-crescent-perspective-w12cemy1qtq6xp9c.jpg);
+    width: 100%;
+    background-color: #81a683;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     position: relative;
-    background-repeat: no-repeat;
-}
-
-nav {
-    background-color: rgba(255, 253, 253, 0);
-    border: 2px rgb(255, 255, 255) solid;
+    border-bottom: solid black 10px;
+  }
+  
+  /* Navigation bar */
+  nav {
+    background-color: #556e57;
+    backdrop-filter: blur(50px);
+    border-radius: 30px;
+    /* border: 2px rgb(255, 255, 255) solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1% 1%;
+    position: relative;
+    top: 10px;
+    width: 95%;
+    margin: auto;
 }
 
 nav ul {
@@ -46,9 +61,19 @@ nav li {
     height: 50px;
 }
 
-nav a, nav img, nav h2 {
+nav a{
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+nav img{
+    height: 100%;
+    padding: 0 2px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -56,118 +81,228 @@ nav a, nav img, nav h2 {
     font-size: 20px;
 }
 
-.side_bar{
+nav h2{
+    height: 100%;
+    padding: 0 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/* Base styling for sidebar */
+.side_bar { 
     position: fixed;
     top: 0;
-    right: 0;
+    right: -250px; /* Start off-screen */
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(46, 41, 41, 0.447);
+    background-color: rgba(56, 91, 52, 0.447);
     backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(4,9,30,0.7);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.side_bar li{
-    width: 100%;
-    
-}
-.side_bar a{
-    width: 100%;
-}
-
-.text-box{
-   overflow: hidden;
-}
-.heading h1{
-    color: #ffffff;
-    font-size: 75px;
-    text-align: left;
-    margin-top: 35px;
-    margin-left: 7%;
-    width: 100%;
-}
-
-.Container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 15px auto;
-}
-.Research_Content{
-    flex: 1;
-    width: 600px;
-    margin: 0px 25px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+    transition: 1s; /* Smooth transition for transform and opacity */
+    opacity: 0; /* Start hidden */
 }
 
-.Research_Content h2{
-    font-size: 50px;
-    margin-bottom: 20px;
+/* Styling for list items in the sidebar */
+.side_bar li {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: 20px; /* Add margin for spacing between items */
+    text-align: left; /* Center align text and images */
+    transition: 1s; 
+    list-style: none;
+}
+
+/* Styling for links within the sidebar */
+.side_bar a {
+    text-decoration: none; /* Remove underline from links */
     color: white;
-}
-
-.Research_Content p{
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-    color: white;
-}
-
-.Research_Content a{
+    transition: 1s; 
     text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #d42222f6;
-    transition: 1s;
-    margin-bottom: 20px;
-    font-size: 14px;
-   
 }
-.Research_Content a:hover{
+
+/* Show the sidebar */
+.side_bar.show {
+    transform: translateX(0); /* Move it into view */
+    opacity: 1; /* Make it visible */
+    right: 0; /* Align with the right edge */
+}
+
+/* CONTENT 1 */
+.HOME_ROW{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.HOME_COL{
+    padding: 0px;
+    margin: auto;
+    flex-basis: 50%;
+}
+
+
+
+.HOME_COL h1{
+    color: #253728;
+    padding: 15px 0 0;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+    line-height: 1;
+
+}
+
+.HOME_COL p{
+    color: #253728;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding-right: 15%;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.HOME_COL a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 25px;
-    border-radius: 5px;
-    background-color: #000000f6;
+    padding: 10px;
+    background-color: #253728;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    transition: 1s;
 }
-.NEW_SECTION_IMAGE{
-    flex: 1;
-    width: 600px;
+
+.image_HOME {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image_HOME img {
+    width: 100%;
+    display:none;
+    border-radius:10px ;
+
+}
+
+img.displaySlide{
+    display: block;
+}
+
+/* Style for the active slide */
+.slide.active {
+    opacity: 1;
+}
+
+/* Button styling */
+.hButtons{
+    background-color: #25372820; /* Semi-transparent white */
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+/* Positioning the buttons within the image */
+.prev:first-of-type {
+    left: 10px; /* Left arrow */
+}
+
+.next:last-of-type {
+    right: 10px; /* Right arrow */
+}
+
+/* Hover effect */
+.prev:hover {
+    background-color: rgba(255, 255, 255, 1); /* Solid white */
+}
+
+.next:hover {
+    background-color: rgba(255, 255, 255, 1); /* Solid white */
+}
+
+/* SECTION 1 */
+
+.Archives_section_one{
+    width: 100%;
+    margin: auto;
+    background-color: #80292b;
+    padding: 3%;
+}
+
+.Archives_section_one_conatiner{
+    padding: 3%;
+    width: 100%;
     margin: auto;
 }
 
-img{
-    width: 50px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.Archives_section_one_parent{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
+.Archives_section_one_children_row{
+    margin: auto;
+    flex-basis: 50%;
+    padding: 10px;
+}
 
-/* MEDIA QUARRIES */
-@media only screen and (max-width: 480px) {
-    /* smartphones */
+.Archives_section_one_children_row img{
+    width: 100%;
+}
 
-  }
-  
-  @media only screen and (min-width: 480px) and (max-width: 768px) {
-    /* smartphone landscape */
-  }
-  
-  @media only screen and (min-width: 768px) and (max-width: 992px) {
-    /* tablet */
-  }
-  
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* tablet landscape */
-  }
-  
-  @media only screen and (min-width: 1200px) {
-    /* desktop, laptop */
-  }
+.Archives_section_one_children_row h2{
+    color: #e9f5db;
+    padding: 15px 0 0;
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+    line-height: 1;
+}
+
+.Archives_section_one_children_row p{
+    color: #e9f5db;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding-right: 15%;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

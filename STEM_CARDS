@@ -1,0 +1,79 @@
+ <section class="STEM_CARDS">
+        <!-- STEM CARDS -->
+         <div class="STEM_CARDS_CONTAINER">
+            <div class="STEM_CARDS_PARENT View">
+                <!-- SCIENCE CARD -->
+                <div class="STEM_CARDS_CHILDREN block">
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <img src="SCIENCE.jpg" alt="#">
+                    </div>
+
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <h3>
+                            SCIENCE
+                        </h3>
+                        <p>
+                            Science is the systematic study of the structure and behavior of the physical
+                            and natural world through observation and experiment.
+                        </p>
+                        
+                    </div>
+
+                </div>
+                <!-- TECHNOLOGHY CARD -->
+                <div class="STEM_CARDS_CHILDREN block">
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <img src="TECHNOLOGHY.svg" alt="#">
+                    </div>
+
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <h3>
+                            TECHNOLOGY
+                        </h3>
+                        <p>
+                            Technology is the application of scientific knowledge for practical purposes, especially in industry.
+                            it aims to equip students with the skills and knowledge to develop, utilize, and manage technological 
+                            tools and innovations, preparing them for modern careers and problem-solving in a technologically-driven
+                            world.
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+                <!-- ENGINEERING CARD -->
+                <div class="STEM_CARDS_CHILDREN block">
+                    <div class="STEM_CARD_CHILDREN_ROW  ">
+                        <img src="ENGINEER 1.svg" alt="#">
+                    </div>
+
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <h3>
+                            ENGINEERING
+                        </h3>
+                        <p>
+                            Engineering is the application of scientific and mathematical principles to design, build, 
+                            and maintain structures, machines, and systems.
+                        </p>
+                        
+                    </div>
+                </div>
+                <!-- MATHEMATHICS CARD -->
+                <div class="STEM_CARDS_CHILDREN block">
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <img src="MATH_3.svg" alt="#">
+                    </div>
+
+                    <div class="STEM_CARD_CHILDREN_ROW">
+                        <h3>
+                            MATHEMATHICS
+                        </h3>
+                        <p>
+                            Mathematics is the study of numbers, quantities, shapes, and patterns, and the logical reasoning
+                            behind them. 
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
